@@ -1,0 +1,332 @@
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 213, in notify
+    payload = xss_payloads.pop()
+IndexError: pop from empty list
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 194, in run
+    self.check_xss(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 159, in check_xss
+    child_process, payload = self.sub_process_open(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 132, in sub_process_open
+    request_command, url_payload, destination_command = self.get_cmd(payload)
+  File "/Users/bsmali4/Desktop/pycharm/xssfork/taskschedule/task_thread.py", line 100, in get_cmd
+    url_payload = re.subn(r'bsmali4_(?:int|mix|other|str|float)', payload, url_payload)[0]
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 166, in subn
+    return _compile(pattern, flags).subn(repl, string, count)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 286, in _subx
+    template = _compile_repl(template, pattern)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 266, in _compile_repl
+    p = _cache_repl.get(key)
+TypeError: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/xssfork/taskschedule/task_thread.py", line 178, in notify
+    payload = xss_payloads.pop()
+IndexError: pop from empty list
+Traceback (most recent call last):
+  File "/Users/bsmali4/Desktop/xssfork/taskschedule/task_thread.py", line 178, in notify
+    payload = xss_payloads.pop()
+IndexError: pop from empty list

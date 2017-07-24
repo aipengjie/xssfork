@@ -1,0 +1,71 @@
+[2017-07-24 16:00:54,422] [ERROR] 错误原因1:url，readfile至少设置一个
+[2017-07-24 16:00:54,422] [ERROR] 错误原因2:url，readfile不能同时设置
+[2017-07-24 16:00:54,423] [INFO] 查看帮组:python xssfork.py -h
+[2017-07-24 16:01:05,895] [DEBUG] 总共有4个编码脚本
+[2017-07-24 16:01:05,896] [DEBUG] [0]10hex_encode
+[2017-07-24 16:01:05,896] [DEBUG] [1]16hex_encode
+[2017-07-24 16:01:05,896] [DEBUG] [2]addkeywords
+[2017-07-24 16:01:05,896] [DEBUG] [3]uppercase
+[2017-07-24 16:01:09,078] [DEBUG] 总共有4个编码脚本
+[2017-07-24 16:01:09,078] [DEBUG] [0]10hex_encode
+[2017-07-24 16:01:09,078] [DEBUG] [1]16hex_encode
+[2017-07-24 16:01:09,078] [DEBUG] [2]addkeywords
+[2017-07-24 16:01:09,078] [DEBUG] [3]uppercase
+[2017-07-24 16:15:54,612] [DEBUG] checking if url is available
+[2017-07-24 16:15:54,653] [INFO] url connection success 
+[2017-07-24 16:15:54,654] [DEBUG] checking if destination is available
+[2017-07-24 16:15:54,655] [INFO] destination connection success 
+[2017-07-24 16:15:54,655] [INFO] loading default paloads
+[2017-07-24 16:15:54,657] [INFO] loading default paloads success
+[2017-07-24 16:15:54,657] [INFO] 513 payloads loaded
+[2017-07-24 16:15:59,803] [CRITICAL] [!] xssfork find XSS Vulnerability
+[2017-07-24 16:19:29,469] [DEBUG] checking if url is available
+[2017-07-24 16:19:29,498] [INFO] url connection success 
+[2017-07-24 16:19:29,499] [DEBUG] checking if destination is available
+[2017-07-24 16:19:29,499] [INFO] destination connection success 
+[2017-07-24 16:19:29,499] [INFO] loading default paloads
+[2017-07-24 16:19:29,500] [INFO] loading default paloads success
+[2017-07-24 16:19:29,500] [INFO] 513 payloads loaded
+[2017-07-24 16:19:34,269] [CRITICAL] [!] xssfork find XSS Vulnerability
+[2017-07-24 16:24:35,566] [DEBUG] checking if url is available
+[2017-07-24 16:24:35,579] [INFO] url connection success 
+[2017-07-24 16:24:35,580] [DEBUG] checking if destination is available
+[2017-07-24 16:24:35,580] [INFO] destination connection success 
+[2017-07-24 16:24:35,580] [INFO] loading default paloads
+[2017-07-24 16:24:35,581] [INFO] loading default paloads success
+[2017-07-24 16:24:35,581] [INFO] 513 payloads loaded
+[2017-07-24 16:25:03,731] [CRITICAL] [!] xssfork find XSS Vulnerability
+[2017-07-24 16:29:36,575] [DEBUG] checking if url is available
+[2017-07-24 16:29:36,587] [INFO] url connection success 
+[2017-07-24 16:29:36,587] [DEBUG] checking if destination is available
+[2017-07-24 16:29:36,591] [INFO] destination connection success 
+[2017-07-24 16:29:36,591] [INFO] loading default paloads
+[2017-07-24 16:29:36,592] [INFO] loading default paloads success
+[2017-07-24 16:29:36,592] [INFO] 513 payloads loaded
+[2017-07-24 16:40:12,624] [WARNING] [!] xssfork can’t find XSS Vulnerability
+[2017-07-24 16:55:15,199] [ERROR] 错误原因1:url，readfile至少设置一个
+[2017-07-24 16:55:15,199] [ERROR] 错误原因2:url，readfile不能同时设置
+[2017-07-24 16:55:15,199] [INFO] 查看帮组:python xssfork.py -h
+[2017-07-24 16:55:34,754] [DEBUG] checking if url is available
+[2017-07-24 16:55:34,774] [INFO] url connection success 
+[2017-07-24 16:55:34,774] [DEBUG] checking if destination is available
+[2017-07-24 16:55:34,774] [INFO] destination connection success 
+[2017-07-24 16:55:34,775] [INFO] loading default paloads
+[2017-07-24 16:55:34,775] [INFO] loading default paloads success
+[2017-07-24 16:55:34,775] [INFO] 513 payloads loaded
+[2017-07-24 16:55:38,297] [CRITICAL] [!] xssfork find XSS Vulnerability
+[2017-07-24 16:57:02,060] [DEBUG] 总共有4个编码脚本
+[2017-07-24 16:57:02,060] [DEBUG] [0]10hex_encode
+[2017-07-24 16:57:02,061] [DEBUG] [1]16hex_encode
+[2017-07-24 16:57:02,061] [DEBUG] [2]addkeywords
+[2017-07-24 16:57:02,061] [DEBUG] [3]uppercase
+[2017-07-24 16:57:11,184] [DEBUG] checking if url is available
+[2017-07-24 16:57:11,198] [INFO] url connection success 
+[2017-07-24 16:57:11,198] [DEBUG] checking if destination is available
+[2017-07-24 16:57:11,198] [INFO] destination connection success 
+[2017-07-24 16:57:11,198] [INFO] loading default paloads
+[2017-07-24 16:57:11,199] [INFO] loading default paloads success
+[2017-07-24 16:57:11,200] [DEBUG] check temper addkeywords is existed
+[2017-07-24 16:57:11,201] [INFO] temper addkeywords is existed
+[2017-07-24 16:57:11,213] [INFO] 1106 payloads loaded
+[2017-07-24 16:57:13,796] [CRITICAL] [!] xssfork find XSS Vulnerability
