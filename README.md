@@ -56,9 +56,9 @@ xssfork作为sicklescan的一个功能模块，其开发主要目的是用于检
 ## 演示
 ![](http://ohsqlm7gj.bkt.clouddn.com/2017-07-24%20at%20%E4%B8%8B%E5%8D%884.23.gif)
 ![](http://ohsqlm7gj.bkt.clouddn.com/2017-07-24%20at%20%E4%B8%8B%E5%8D%884.27.gif)
- post类型  
- ![](http://ohsqlm7gj.bkt.clouddn.com/2017-07-24%20at%20%E4%B8%8B%E5%8D%885.37.gif)
- ![](http://ohsqlm7gj.bkt.clouddn.com/2017-07-24%20at%20%E4%B8%8B%E5%8D%885.38.gif)
+post类型  
+![](http://ohsqlm7gj.bkt.clouddn.com/2017-07-24%20at%20%E4%B8%8B%E5%8D%885.37.gif)
+![](http://ohsqlm7gj.bkt.clouddn.com/2017-07-24%20at%20%E4%B8%8B%E5%8D%885.38.gif)
  python xssfork.py -u xx -d 'xx'  
  存储型  
  python xssfork.py -u xx -d 'xxx' -D '输出位置'
