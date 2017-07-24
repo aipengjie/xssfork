@@ -40,7 +40,8 @@ xssfork作为sicklescan的一个功能模块，其开发主要目的是用于检
 主要是应对过滤为replace('keywords','')的情况  
 ```
 <script>alert(65534);</script>
-```变成
+```
+变成
 ```
 <<script>script>alert(65534);</script>
 ```
