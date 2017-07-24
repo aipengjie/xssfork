@@ -66,6 +66,7 @@ post类型
 ## 说明
 开源只为分享，请勿将本脚本做任何商业性质的集成。开发的时候，有可能很多情况没有考虑到，如果你有更好的建议或者发现bug，可以联系我邮箱,xssfork.codersec.net网站还在建设中,github不要吝啬你的star。
 root@codersec.net  
-开源地址 https://github.com/bsmali4/xssfork，记得不要吝啬你的star
+开源地址 https://github.com/bsmali4/xssfork
+记得不要吝啬你的star
 
 
